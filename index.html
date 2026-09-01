@@ -1091,35 +1091,36 @@
       </div>
 
       <!-- Grid dos 2 Planos -->
-      <div class="grid md:grid-cols-2 gap-6 lg:gap-8 items-stretch max-w-4xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-6 lg:gap-8 items-stretch max-w-4xl mx-auto text-center">
 
         <!-- PLANO 1: BÁSICO (R$ 19,90) -->
-        <div class="bg-white text-ink-900 rounded-3xl p-6 sm:p-8 shadow-xl border border-ink-200 flex flex-col justify-between relative" style="background-color: #FFFFFF; color: #0F172A;">
+        <div class="bg-white text-ink-900 rounded-3xl p-6 sm:p-8 shadow-xl border border-ink-200 flex flex-col justify-between relative text-center" style="background-color: #FFFFFF; color: #0F172A;">
           <div>
-            <div class="inline-block bg-petroleo-50 text-petroleo-800 text-[11px] font-extrabold uppercase px-3 py-1 rounded-full tracking-wider border border-petroleo-200 mb-3">
+            <div class="inline-block bg-petroleo-50 text-petroleo-800 text-[11px] font-extrabold uppercase px-3.5 py-1 rounded-full tracking-wider border border-petroleo-200 mb-3 mx-auto">
               Plano Básico
             </div>
             
-            <h3 class="text-xl sm:text-2xl font-extrabold text-petroleo-950 mb-1">
+            <h3 class="text-2xl sm:text-3xl font-extrabold text-petroleo-950 mb-1">
               80 Mapas do SUS
             </h3>
-            <p class="text-xs sm:text-sm text-ink-600 font-medium mb-5">
+            <p class="text-xs sm:text-sm text-ink-600 font-medium mb-4 max-w-xs mx-auto">
               O essencial para memorizar e revisar a lei seca de forma visual.
             </p>
 
-            <!-- Preço -->
-            <div class="bg-gelo p-4 rounded-2xl border border-ink-200 text-center mb-6">
-              <div class="text-xs text-ink-500 line-through font-semibold mb-0.5">De R$ 97,00 por apenas</div>
-              <div class="flex items-baseline justify-center gap-1">
-                <span class="text-lg font-bold text-petroleo-950">R$</span>
-                <span class="text-4xl sm:text-5xl font-black text-petroleo-950 tracking-tight">19</span>
-                <span class="text-xl font-bold text-petroleo-950">,90</span>
-              </div>
-              <span class="text-[11px] font-bold text-petroleo-700 block mt-1">Pagamento único • Acesso vitalício</span>
+            <!-- Mockup do Plano Básico -->
+            <div class="h-44 sm:h-48 flex items-center justify-center mb-5 p-2">
+              <img 
+                src="mockup-comparacao.webp" 
+                alt="Mockup 80 Mapas Mentais do SUS" 
+                class="max-h-full w-auto object-contain rounded-xl shadow-md border border-ink-100 transition duration-300 hover:scale-105"
+                loading="lazy"
+                width="300"
+                height="300"
+              >
             </div>
 
             <!-- Entregáveis -->
-            <div class="space-y-2.5 text-xs sm:text-sm text-ink-800 font-medium mb-6">
+            <div class="space-y-2.5 text-xs sm:text-sm text-ink-800 font-medium mb-6 text-left border-t border-b border-ink-100 py-4">
               <div class="flex items-start gap-2.5">
                 <span class="text-jade-700 font-black text-sm shrink-0">✓</span>
                 <span><strong>80 Mapas Mentais Ilustrados</strong> (Edital SES-TO)</span>
@@ -1143,7 +1144,19 @@
             </div>
           </div>
 
+          <!-- Bloco de Preço & Botão (Preço ACIMA do botão) -->
           <div>
+            <!-- Preço Básico -->
+            <div class="bg-gelo p-4 rounded-2xl border border-ink-200 text-center mb-4">
+              <div class="text-xs text-ink-500 line-through font-semibold mb-0.5">De R$ 97,00 por apenas</div>
+              <div class="flex items-baseline justify-center gap-1">
+                <span class="text-lg font-bold text-petroleo-950">R$</span>
+                <span class="text-4xl sm:text-5xl font-black text-petroleo-950 tracking-tight">19</span>
+                <span class="text-xl font-bold text-petroleo-950">,90</span>
+              </div>
+              <span class="text-[11px] font-bold text-petroleo-700 block mt-1">Pagamento único • Acesso vitalício</span>
+            </div>
+
             <a 
               href="https://pay.kiwify.com.br/hApdVVC" 
               target="_blank" 
@@ -1160,7 +1173,7 @@
         </div>
 
         <!-- PLANO 2: COMPLETO (R$ 29,90) - DESTAQUE -->
-        <div class="bg-white text-ink-900 rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-ouro-500 flex flex-col justify-between relative transform md:-translate-y-2" style="background-color: #FFFFFF; color: #0F172A;">
+        <div class="bg-white text-ink-900 rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-ouro-500 flex flex-col justify-between relative text-center transform md:-translate-y-2" style="background-color: #FFFFFF; color: #0F172A;">
           
           <!-- Badge Topo Destaque -->
           <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-ouro-500 to-ouro-600 text-petroleo-950 font-black text-[10px] sm:text-xs uppercase px-4 py-1 rounded-full tracking-wider shadow-md whitespace-nowrap">
@@ -1168,30 +1181,31 @@
           </div>
 
           <div>
-            <div class="inline-block bg-jade-50 text-jade-800 text-[11px] font-extrabold uppercase px-3 py-1 rounded-full tracking-wider border border-jade-200 mb-3 mt-1 sm:mt-0">
+            <div class="inline-block bg-jade-50 text-jade-800 text-[11px] font-extrabold uppercase px-3.5 py-1 rounded-full tracking-wider border border-jade-200 mb-3 mt-1 sm:mt-0 mx-auto">
               Plano Completo
             </div>
             
-            <h3 class="text-xl sm:text-2xl font-extrabold text-petroleo-950 mb-1">
+            <h3 class="text-2xl sm:text-3xl font-extrabold text-petroleo-950 mb-1">
               80 Mapas + 6 Bônus
             </h3>
-            <p class="text-xs sm:text-sm text-ink-600 font-medium mb-5">
+            <p class="text-xs sm:text-sm text-ink-600 font-medium mb-4 max-w-xs mx-auto">
               A preparação blindada de reta final para gabaritar o concurso.
             </p>
 
-            <!-- Preço -->
-            <div class="bg-ouro-50/70 p-4 rounded-2xl border border-ouro-300 text-center mb-6">
-              <div class="text-xs text-ink-500 line-through font-semibold mb-0.5">De R$ 245,00 por apenas</div>
-              <div class="flex items-baseline justify-center gap-1">
-                <span class="text-lg font-bold text-petroleo-950">R$</span>
-                <span class="text-4xl sm:text-5xl font-black text-petroleo-950 tracking-tight">29</span>
-                <span class="text-xl font-bold text-petroleo-950">,90</span>
-              </div>
-              <span class="text-[11px] font-bold text-jade-800 block mt-1">Economia de R$ 215,10 • Pagamento único</span>
+            <!-- Mockup do Plano Completo -->
+            <div class="h-44 sm:h-48 flex items-center justify-center mb-5 p-1">
+              <img 
+                src="mockup-principal.webp" 
+                alt="Mockup Pack Completo 80 Mapas Mentais do SUS + 6 Bônus" 
+                class="max-h-full w-auto object-contain drop-shadow-xl transition duration-300 hover:scale-105"
+                loading="lazy"
+                width="340"
+                height="340"
+              >
             </div>
 
             <!-- Entregáveis -->
-            <div class="space-y-2.5 text-xs sm:text-sm text-ink-800 font-medium mb-6">
+            <div class="space-y-2.5 text-xs sm:text-sm text-ink-800 font-medium mb-6 text-left border-t border-b border-ink-100 py-4">
               <div class="flex items-start gap-2.5">
                 <span class="text-jade-700 font-black text-sm shrink-0">✓</span>
                 <span><strong>80 Mapas Mentais Ilustrados</strong> (Edital SES-TO)</span>
@@ -1223,7 +1237,19 @@
             </div>
           </div>
 
+          <!-- Bloco de Preço & Botão (Preço ACIMA do botão) -->
           <div>
+            <!-- Preço Completo -->
+            <div class="bg-ouro-50/80 p-4 rounded-2xl border border-ouro-300 text-center mb-4">
+              <div class="text-xs text-ink-500 line-through font-semibold mb-0.5">De R$ 245,00 por apenas</div>
+              <div class="flex items-baseline justify-center gap-1">
+                <span class="text-lg font-bold text-petroleo-950">R$</span>
+                <span class="text-4xl sm:text-5xl font-black text-petroleo-950 tracking-tight">29</span>
+                <span class="text-xl font-bold text-petroleo-950">,90</span>
+              </div>
+              <span class="text-[11px] font-bold text-jade-800 block mt-1">Economia de R$ 215,10 • Pagamento único</span>
+            </div>
+
             <a 
               href="https://pay.kiwify.com.br/hApdVVC" 
               target="_blank" 
